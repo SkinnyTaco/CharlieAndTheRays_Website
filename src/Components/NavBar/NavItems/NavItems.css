@@ -1,0 +1,40 @@
+.NavPage {
+  display: flex;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 20px;
+  flex-flow: row;
+  align-items:center;
+  width: 40%;
+  justify-content:space-between;
+  color: #ffffff;
+  /* font-size: calc(12px + (26 - 12) * ((100vw - 400px) / (1600 - 400))); */
+  list-style: none;
+}
+
+.NavMedia {
+  display: flex;
+  flex-flow: row;
+  height: 20px;
+  justify-content: flex-end;
+  list-style: none;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 25%;
+}
+
+.Icon {
+  border-radius: 15%;
+  height: 34px;
+  margin: 0 15px;
+  transition: all .3s ease-in-out;
+  width: 34px;
+}
+
+.Icon:hover {
+  box-shadow: 0 5px 2px -3px #aaa;
+}

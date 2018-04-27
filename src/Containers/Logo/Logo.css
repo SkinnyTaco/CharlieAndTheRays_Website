@@ -1,0 +1,11 @@
+.Full_Page {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 130vh;
+}
+
+.Logo {
+  height: 85vh;
+  width: auto;
+}

@@ -1,0 +1,16 @@
+.NavItem a:hover {
+  background-color: #ffffff;
+  box-shadow: 0 3px 2px -2px #777;
+  color: #cee0c9;
+}
+
+.NavItem a {
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: 'Fontdiner Swanky', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  padding: 4px 3px 0 3px;
+  text-decoration: none;
+  transition: all .32s ease-in-out;
+}

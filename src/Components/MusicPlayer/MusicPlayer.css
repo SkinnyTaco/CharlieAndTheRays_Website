@@ -1,0 +1,17 @@
+.Header {
+  color: #4FAFA3;
+  font-size: 80px;
+}
+
+.Music_Page {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.Player {
+  border: 0;
+  height: 555px;
+  width: 350px;
+}
